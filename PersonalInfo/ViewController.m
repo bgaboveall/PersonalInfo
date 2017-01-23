@@ -14,7 +14,21 @@
 
 @implementation ViewController
 
+- (void) hideLabels {
+    [self.fnLabel setHidden:YES];
+    [self.lnLabel setHidden:YES];
+    [self.phoneLabel setHidden:YES];
+    [self.numberLabel setHidden:YES];
+    [self.streetLabel setHidden:YES];
+    [self.pcLabel setHidden:YES];
+    [self.cityLabel setHidden:YES];
+    [self.countryLabel setHidden:YES];
+}
+
 - (void)viewDidLoad {
+    [self hideLabels];
+    [self.modifyButton setHidden:YES];
+    [self.clearButton setHidden:YES];
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
