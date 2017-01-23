@@ -24,6 +24,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clearDidTouchUpInside:(id)sender {
+}
 
+- (IBAction)modifyDidTouchUpInside:(id)sender {
+}
+
+- (IBAction)submitDidTouchUpInside:(id)sender {
+}
 
 @end
